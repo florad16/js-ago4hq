@@ -22,12 +22,35 @@ let menu = {
 multiplyNumeric(menu);
 console.log(menu);
 
-//Aufgabe7 
+//Aufgabe6
 
 let user = {
   name: "John",
-  go:function() {alert(this.name)}
+  go:function() {
+    console.log(this.name)
+  }
 }
 user.go();
+
+//Aufgabe 7
+
+class Animal {
+  constructor(name){
+    this.name = name;
+    
+
+  }
+}
+class Rabbit extends Animal{
+  constructor(name){
+    super(name);
+    this.created = Date.now();
+  }
+}
+let rabbit = new Rabbit ("White Rabbit");
+console.log(rabbit.name);
+
+//Aufgabe8 
+
 
 
