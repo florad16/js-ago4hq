@@ -22,3 +22,12 @@ let menu = {
 multiplyNumeric(menu);
 console.log(menu);
 
+//Aufgabe7 
+
+let user = {
+  name: "John",
+  go:function() {alert(this.name)}
+}
+//(user.go)()
+
+
